@@ -46,12 +46,12 @@ export const Navbar = () => {
                     >
                      Estancias   
                     </NavLink>
-                    <NavLink 
+                    {/* <NavLink 
                         className="nav-item nav-link dropdown-toggle" 
                         to="/sedes"
                     >
                      Sedes 
-                    </NavLink>
+                    </NavLink> */}
                 </div>
             </div>
 
