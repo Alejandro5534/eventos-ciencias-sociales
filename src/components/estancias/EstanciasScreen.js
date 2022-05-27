@@ -3,6 +3,7 @@ import MapView from '../ui/MapView'
 
 export const EstanciasScreen = () => {
   return (
+    <>
     <div>
         <MapView />
         <h1
@@ -21,6 +22,6 @@ export const EstanciasScreen = () => {
             right: '5vw',
           }}
         >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor enim in libero pharetra, nec dapibus dui suscipit. Phasellus accumsan magna sit amet faucibus ornare. Nullam consectetur maximus scelerisque. Sed lorem nunc, iaculis ac egestas non, molestie in turpis. Vestibulum et nisi justo. Donec fermentum semper convallis. Duis dapibus libero vitae ultricies suscipit. Fusce sed nisi magna. Morbi ullamcorper luctus nunc nec tincidunt. Morbi vulputate aliquet mauris. Praesent scelerisque aliquam nisi.</p>
-    </div>
+    </div></>
   )
 }

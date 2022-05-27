@@ -16,12 +16,14 @@ export const MapView= ()=> {
       mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
         mapLib={maplibregl} 
         style={{
+                margin:'40px',
                 height: '50vh',
                 left: '10vw',
-                position: 'fixed',
+                position: 'sticky',
                 top: '20vh',
                 width: '30vw',
     }} />;
 }
 
 export default MapView
+

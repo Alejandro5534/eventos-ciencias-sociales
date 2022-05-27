@@ -41,7 +41,7 @@ export const Navbar = () => {
                      Actividad   
                     </NavLink>
                     <NavLink 
-                        className="nav-item nav-link dropdown-toggle" 
+                        className="nav-item nav-link " 
                         to="/estancias"
                     >
                      Estancias   
