@@ -1,0 +1,39 @@
+.containerimage {
+    position: relative;
+    width: 20%;
+ }
+ 
+  .image {
+   display:block;
+   width: 100%;
+   height: auto;
+   opacity: 1;
+   transition: .5s ease;
+   border-radius: 10%;
+   padding: 15px;
+ }
+ 
+ .overlay-box {
+   position: absolute;     
+   opacity:0;
+   top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%)      
+ }
+ 
+ .containerimage:hover .image {
+     opacity: 0.5;
+  }
+ 
+ .containerimage:hover .overlay-box
+ {
+   opacity: 1;
+  }
+ 
+ .text{       
+   background-color: #008000;
+   color: white;
+   font-size: 14px;
+   padding: 10px 15px;  
+ }
