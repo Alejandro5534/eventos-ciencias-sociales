@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./Alejandro5534/eventos-ciencias-sociales.git/static/css/main.0449a304.css",
-    "main.js": "./Alejandro5534/eventos-ciencias-sociales.git/static/js/main.6ac3e2d9.js",
-    "static/js/636.b9643b4b.chunk.js": "./Alejandro5534/eventos-ciencias-sociales.git/static/js/636.b9643b4b.chunk.js",
-    "index.html": "./Alejandro5534/eventos-ciencias-sociales.git/index.html",
-    "main.0449a304.css.map": "./Alejandro5534/eventos-ciencias-sociales.git/static/css/main.0449a304.css.map",
-    "main.6ac3e2d9.js.map": "./Alejandro5534/eventos-ciencias-sociales.git/static/js/main.6ac3e2d9.js.map",
-    "636.b9643b4b.chunk.js.map": "./Alejandro5534/eventos-ciencias-sociales.git/static/js/636.b9643b4b.chunk.js.map"
+    "main.css": "/Alejandro5534/eventos-ciencias-sociales.git/static/css/main.0449a304.css",
+    "main.js": "/Alejandro5534/eventos-ciencias-sociales.git/static/js/main.706dbce7.js",
+    "static/js/636.b9643b4b.chunk.js": "/Alejandro5534/eventos-ciencias-sociales.git/static/js/636.b9643b4b.chunk.js",
+    "index.html": "/Alejandro5534/eventos-ciencias-sociales.git/index.html",
+    "main.0449a304.css.map": "/Alejandro5534/eventos-ciencias-sociales.git/static/css/main.0449a304.css.map",
+    "main.706dbce7.js.map": "/Alejandro5534/eventos-ciencias-sociales.git/static/js/main.706dbce7.js.map",
+    "636.b9643b4b.chunk.js.map": "/Alejandro5534/eventos-ciencias-sociales.git/static/js/636.b9643b4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0449a304.css",
-    "static/js/main.6ac3e2d9.js"
+    "static/js/main.706dbce7.js"
   ]
 }
