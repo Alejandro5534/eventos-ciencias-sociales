@@ -15,7 +15,7 @@ export const Navbar = () => {
                 className="navbar-brand" 
                 to="/"
             >
-              <img src="/assets/tecnm_logo.png" width={150} className="d-inline-block align-top" alt=""/>
+              <img src="../public/assets/tecnm_logo.PNG" width={150} className="d-inline-block align-top" alt=""/>
             </Link>
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
