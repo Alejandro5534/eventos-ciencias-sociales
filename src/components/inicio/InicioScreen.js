@@ -1,5 +1,8 @@
 import React from 'react'
 import '../inicio/inicio.scss';
+import pi from './../../assets/Pi.jpg'
+import math from './../../assets/math.jpg'
+import edison from './../../assets/edison.jpg'
 
 
 export const InicioScreen = () => {
@@ -15,13 +18,13 @@ export const InicioScreen = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/assets/pi.jpg" className="d-block w-100" width="800" height="400" alt="..." />
+            <img src={pi} className="d-block w-100" width="800" height="400" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/assets/math.jpg" className="d-block w-100" width="800" height="400" alt="..." />
+            <img src={math} className="d-block w-100" width="800" height="400" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src="/assets/edison.jpg" className="d-block w-100" width="800" height="400" alt="..." />
+            <img src={edison} className="d-block w-100" width="800" height="400" alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
