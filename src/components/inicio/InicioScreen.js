@@ -1,6 +1,6 @@
 import React from 'react'
 import '../inicio/inicio.scss';
-import pi from './../../assets/Pi.jpg'
+import pi from '../../assets/Pi.jpg'
 import math from './../../assets/math.jpg'
 import edison from './../../assets/edison.jpg'
 
