@@ -1,3 +1,13 @@
 .titulo{
     text-align: center;
 }
+.row{
+    padding: 100px;
+
+}
+.image_center{
+    text-align: center;
+}
+.justify_text{
+    text-align: justify;
+}
