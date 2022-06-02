@@ -1,5 +1,8 @@
 import React from 'react'
 import '../inicio/inicio.scss';
+import pi from '../../assets/Pi.jpg'
+import math from './../../assets/math.jpg'
+import edison from './../../assets/edison.jpg'
 
 
 export const InicioScreen = () => {
@@ -7,30 +10,30 @@ export const InicioScreen = () => {
   return (
     <>
 
-      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <div id="carouselExampleControls" className="carousel slide " data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../assets/pi.jpg" class="d-block w-100" width="800" height="400" alt="..." />
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={pi} className="d-block w-100" width="800" height="400" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src="../assets/math.jpg" class="d-block w-100" width="800" height="400" alt="..." />
+          <div className="carousel-item">
+            <img src={math} className="d-block w-100" width="800" height="400" alt="..." />
           </div>
-          <div class="carousel-item">
-            <img src="../assets/edison.jpg" class="d-block w-100" width="800" height="400" alt="..." />
+          <div className="carousel-item">
+            <img src={edison} className="d-block w-100" width="800" height="400" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"></span>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"></span>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden"></span>
         </button>
       </div>
 
@@ -68,48 +71,48 @@ export const InicioScreen = () => {
         </div>
 
       </div> */}
-      <div class="slider">
-        <div class="slide-track">
-          <div class="slide">
+      <div className="slider">
+        <div className="slide-track">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
           </div>
-          <div class="slide">
+          <div className="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
           </div>
         </div>

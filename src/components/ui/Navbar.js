@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import logo from './../../assets/tecnm_logo.PNG'
 
 export const Navbar = () => {
   const styleNav ={
@@ -15,7 +16,7 @@ export const Navbar = () => {
                 className="navbar-brand" 
                 to="/"
             >
-              <img src="../assets/tecnm_logo.png" width={150} className="d-inline-block align-top" alt=""/>
+              <img src={logo} width={150} className="d-inline-block align-top" alt=""/>
             </Link>
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
